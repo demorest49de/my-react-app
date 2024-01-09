@@ -1,23 +1,24 @@
 import React from "react";
+import { StyledMenuTitle } from "../Header.Styled";
 
 
 function Accordion(props: any) {
     return (
         <div>
-            <Title title={props.titleValue}/>
+            <MenuTitle title={props.titleValue}/>
             <ul>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
-                <li><a href=""></a></li>
+                <li><a href="http://www.google.com" title="google">google</a></li>
+                <li><a href="#" title="1">1</a></li>
+                <li><a href="#" title="1">1</a></li>
             </ul>
         </div>
     )
 }
 
-function Title(props: any) {
+function MenuTitle(props: any) {
     return (
         <>
-            <h3>--- {props.title}</h3>
+            <StyledMenuTitle>--- {props.title}</StyledMenuTitle>
         </>
     )
 }

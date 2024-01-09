@@ -2,10 +2,13 @@ import React from 'react';
 import './App.css';
 import Accordion from './components/Accordion/Accordion';
 import {Rating} from "./components/Rating/Rating";
+import {GlobalStyles} from "./components/GlobalStyles";
+
 
 function App() {
     return (
         <div className="App">
+            <GlobalStyles/>
             <AppTitle/>
             <input type={"password"}/>
             <Rating value={3}/>
