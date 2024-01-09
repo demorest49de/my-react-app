@@ -8,14 +8,18 @@ function App() {
         <div className="App">
             <AppTitle/>
             <input type={"password"}/>
-            <Rating/>
-            <Accordion/>
+            <Rating value={3}/>
+            <Rating value={4}/>
+            <Rating value={5}/>
+            <Rating value={6}/>
+            <Accordion titleValue={"Menu"}/>
+            <Accordion titlevalue={"Users"}/>
         </div>
     );
 }
 
 function AppTitle() {
-    return(
+    return (
         <>
             <h1>This is APP component</h1>
         </>

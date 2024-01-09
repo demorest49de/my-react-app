@@ -1,12 +1,10 @@
 import React from "react";
 
 
-function Accordion() {
+function Accordion(props: any) {
     return (
         <div>
-            <h3>
-                Menu
-            </h3>
+            <Title title={props.titleValue}/>
             <ul>
                 <li><a href=""></a></li>
                 <li><a href=""></a></li>
@@ -17,7 +15,11 @@ function Accordion() {
 }
 
 function Title(props: any) {
-    
+    return (
+        <>
+            <h3>--- {props.title}</h3>
+        </>
+    )
 }
 
 export default Accordion;
