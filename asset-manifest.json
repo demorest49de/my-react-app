@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/my-react-app/static/css/main.fb099307.css",
+    "main.js": "/my-react-app/static/js/main.8e14c0ed.js",
+    "index.html": "/my-react-app/index.html",
+    "main.fb099307.css.map": "/my-react-app/static/css/main.fb099307.css.map",
+    "main.8e14c0ed.js.map": "/my-react-app/static/js/main.8e14c0ed.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb099307.css",
+    "static/js/main.8e14c0ed.js"
+  ]
+}
